@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import eduTechImg from "../../Assets/Projects/eduTechImg.png";
+import Sorting from "../../Assets/Projects/Sorting.png";
 import ticTacToeImg from "../../Assets/Projects/ticTacToeImg.png";
 import randomPassImg from "../../Assets/Projects/randomPassImg.png";
 import bgmiProjectImg from "../../Assets/Projects/bgmiProjectImg.png";
@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="BGMI Tournaments "
               description="Developed a web application to streamline the process of organizing and participating in BGMI (Battlegrounds Mobile India) tournaments."
-              ghLink="https://github.com/monk0707/bgmi-tournaments"
+              ghLink="https://github.com/Anup050/bgmi-tournaments"
               demoLink="https://www.bgmitournaments.in/"
             />
           </Col>
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={shoppingCartImg}
               isBlog={false}
-              title="SHOPPING CART"
-              description="Developed a versatile and responsive shopping cart application in which users can add and delete items in the cart."
-              ghLink="https://github.com/monk0707/shopping-cart"
-              demoLink="https://lucky-nougat-376edf.netlify.app/"
+              title="E-Commerce"
+              description="Developed a versatile and responsive clothing eCommerce website that allows users to shop anytime and manage their cart by adding or deleting items seamlessly."
+              ghLink="https://github.com/Anup050/E-commerce-WebApp"
+              demoLink="https://Anup.netlify.app/"
             />
           </Col>
 
@@ -48,21 +48,19 @@ function Projects() {
               imgPath={randomPassImg}
               isBlog={false}
               title="RANDOM PASSWORD GENERATOR"
-              description="•	One can set constraints to generate the password like including uppercase letters, lowercase letters, Numbers and Symbols.
-•	One can also set the length of the password to generate and we can also get to know whether the generated password is strong or weak.
-"
-              ghLink="https://github.com/monk0707/random-password-generator"
-              demoLink=" https://monk0707.github.io/random-password-generator/"            
+              description="Developed a customizable password generator allowing users to set constraints like uppercase, lowercase, numbers, symbols, and desired length, while also indicating the strength of the generated password."
+              ghLink="https://github.com/Anup050/random-password-generator"
+              demoLink=" https://Anup050.github.io/random-password-generator/"            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eduTechImg}
+              imgPath={Sorting}
               isBlog={false}
-              title="EduConnect"
-              description="EduConnect is a cutting-edge educational platform built using the MERN stack (MongoDB, Express.js, React, Node.js), designed to revolutionize online learning. This platform offers a seamless, interactive, and engaging learning experience for students and educators alike. With features like real-time collaboration, personalized learning paths, and an intuitive user interface, EduConnect bridges the gap between traditional classrooms and modern digital education. Whether you're looking to enhance your skills or share your knowledge, EduConnect provides the tools and community to support your educational journey."
-              demoLink="https://study-notion-edtech-frontend-pink.vercel.app/"
+              title="Sorting-Algorithms-Visualizer"
+              description="Created a web app using HTML, CSS, and JavaScript to visualize sorting algorithms like Bubble, Insertion, Selection, Merge, and Quick Sort, along with their time complexities and total run times."
+              demoLink="https://vercel.app/"
             />
           </Col>
 
@@ -72,8 +70,8 @@ function Projects() {
               isBlog={false}
               title="Parallax Effect"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/monk0707/parallax-effect"
-              demoLink="https://monk0707.github.io/parallax-effect/"
+              ghLink="https://github.com/Anup050/parallax-effect"
+              demoLink="https://parallax-effect/"
               //  <--------Please include a demo link here
             />
           </Col>
@@ -84,8 +82,8 @@ function Projects() {
               isBlog={false}
               title="TicTacTwist"
               description="TicTacTwist is a modern take on the classic Tic Tac Toe game, crafted with JavaScript and styled with Tailwind CSS for a sleek and responsive design. This game offers a delightful user experience with smooth animations, intuitive gameplay, and a minimalist interface. Whether you're playing against a friend or challenging the computer, TicTacTwist provides a fun and engaging way to enjoy this timeless game, all from the convenience of your web browser. Dive into a world where strategy meets style, and see if you can outsmart your opponent in this reimagined classic!"
-              ghLink="https://github.com/monk0707/tictac"
-              demoLink="https://monk0707.github.io/tictac/"      
+              ghLink="https://github.com/Anup050/tictac"
+              demoLink="https:///tictac/"      
               // <--------Please include a demo link here 
             />
           </Col>

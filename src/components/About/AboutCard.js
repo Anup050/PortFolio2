@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Arvind Sharma </span>
-            from <span className="purple"> Noida, India.</span>
+            Hi Everyone, I am <span className="purple">Anup Kumar Dubey </span>
+            from <span className="purple"> Varanasi, India.</span>
             <br />
-            I am currently pursuing my B.Tech in Computer Science from NIT Bhopal (2022-2026)
+            I am currently pursuing my B.Tech in Computer Science from Lovely Professional University (2022-2026)
             <br />
 
             <br />
@@ -23,19 +23,19 @@ function AboutCard() {
               <ImPointRight /> Writing Blogs on Medium 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Lifting Weights
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Listening to Music
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Arvind</footer>
+          <footer className="blockquote-footer">Anup</footer>
         </blockquote>
-        <a href="https://medium.com/@starkarvind1" target="_blank" rel="noopener noreferrer">
+        <a href="https://medium.com/@anup-dubey09" target="_blank" rel="noopener noreferrer">
           Visit my Medium Blogs
         </a>
       </Card.Body>

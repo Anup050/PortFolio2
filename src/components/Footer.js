@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Arvind Sharma</h3>
+          <h3>Designed and Developed by A. K. Dubey</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} mvrx</h3>
+          <h3>Copyright © {year}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/monk0707"
+                href="https://github.com/Anup050"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -31,19 +31,9 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/arvind-sharma-3884a2205/"
+                href="https://www.linkedin.com/in/anup-kumar-dubey-8979a024a/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/arvind_mvrx/"
+                href="https://www.instagram.com/anup_dubey09/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
