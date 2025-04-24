@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Anup Kumar Dubey </span>
             from <span className="purple"> Varanasi, India.</span>
             <br />
-            I am currently pursuing my B.Tech in Computer Science from Lovely Professional University (2022-2026)
+            Currently pursuing my B.Tech in Computer Science from Lovely Professional University (2022-2026)
             <br />
 
             <br />
