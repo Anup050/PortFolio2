@@ -19,36 +19,38 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I fell in love with data and technology, and I’ve been exploring the possibilities ever since!🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />Fluent in tools and languages like 
               <i>
-                <b className="purple"> C++, Javascript and MERN Stack. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also interested in{" "}
-                <b className="purple">
-                  Algorithms
+                <b className="purple"> SQL, Python, and the modern data stack.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My field of interest lies in &nbsp;
+              <i>
+                <b className="purple">designing scalable data pipelines, data modeling </b>
+                and extracting meaningful insights through {" "}
+                <b className="purple">
+                data analysis and visualization.
+
+                </b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I apply my skills to build and optimize ETL workflows, and work with platforms like <b className="purple">AWS, Apache Spark, </b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Power BI/Tableau
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; to turn raw data into actionable insights.
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple">
+
+</b>
               </i>
             </p>
           </Col>
@@ -67,7 +69,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Anup050"
+                  href="https://github.com/Shashanksuryawanshi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +80,7 @@ function Home2() {
               
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/anup-kumar-dubey-8979a024a/"
+                  href="https://www.linkedin.com/in/shashank-suryawanshi-779b8321a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +90,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/anup_dubey09/"
+                  href="https://www.instagram.com/sha_sha_nk__singh0/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

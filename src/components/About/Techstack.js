@@ -1,91 +1,88 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  // SiRedis,
-  // SiFirebase,
-  // SiNextdotjs,
-  // SiSolidity,
-  // SiPostgresql,
+  SiPython,
+  SiApacheairflow,
+  SiApachespark,
+  SiPandas,
+  SiNumpy,
+  SiMongodb,
+  SiMysql,
+  SiPostgresql,
+  SiSnowflake,
+  SiAmazonaws,
+  SiDocker,
+  SiGit,
+  SiTableau,
+  SiPowerbi,
 } from "react-icons/si";
-
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3 } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { TbBrandVscode } from "react-icons/tb";
-import { TbBrandGolang } from "react-icons/tb";
-import { SiThealgorithms } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
-import { SiDocker } from "react-icons/si";
-
-
-// import { TbBrandGolang } from "react-icons/tb";
+import { DiJava } from "react-icons/di";
+import { TbSql } from "react-icons/tb";
+import { FaAws, FaChartBar } from "react-icons/fa"; // ChartBar used for Seaborn
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* Languages */}
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiThealgorithms />
+        <TbSql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaHtml5/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaCss3/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiJava />
       </Col>
 
+      {/* Data Tools & Frameworks */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiPandas />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachespark />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApacheairflow />
+      </Col>
+
+      {/* Databases & Warehousing */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSnowflake />
+      </Col>
+
+      {/* Cloud & Deployment */}
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <TbBrandVscode />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiGit />
       </Col>
-      
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col> */}
+
+      {/* Visualization & BI */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowerbi />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaChartBar /> {/* Used as visual for Seaborn */}
+      </Col>
     </Row>
   );
 }

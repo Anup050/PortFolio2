@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by A. K. Dubey</h3>
+          <h3>Designed and Developed by Shashank Surywanshi</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Anup050"
+                href="https://github.com/Shashanksuryawanshi"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/anup-kumar-dubey-8979a024a/"
+                href="https://www.linkedin.com/in/shashank-suryawanshi-779b8321a"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/anup_dubey09/"
+                href="https://www.instagram.com/sha_sha_nk__singh0"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
